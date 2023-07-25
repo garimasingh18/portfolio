@@ -26,7 +26,7 @@ h1 {
 }
 @media only screen and (min-width: 600px) {
   .container {
-    padding: 2rem 8rem;
+    padding: 5rem 8rem;
   }
 }
 .main {
@@ -35,10 +35,9 @@ h1 {
 }
 .sticky {
   position: sticky;
-  width: 50%;
 }
 .content {
-  width: 60%;
+  width: 90%;
 }
 .links ul li {
   padding: 1rem 0;
@@ -123,5 +122,19 @@ h1 {
 }
 .heading {
   text-decoration: none;
+  color: rgb(226 232 240);
+}
+.inline-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+.inline-link:hover {
+  color: rgb(94 234 212);
+}
+#experience,
+#projects {
+  margin-top: 8rem;
+}
+.font-white {
   color: rgb(226 232 240);
 }
