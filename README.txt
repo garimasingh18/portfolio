@@ -5,6 +5,6 @@ Credits:
 		
 
 	Icons:
-		Font Awesome (fontawesome.io)
+		Google Awesome (fonts.googleapis.com)
 
 	Other:
