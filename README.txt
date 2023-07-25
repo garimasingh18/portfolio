@@ -7,4 +7,4 @@ Credits:
 TODOs:
 - [ ] Add links for LinkedIn, Github, Twitter etc 
 - [ ] Convert CSS to SASS
-- [ ] Add links to CV  
+- [ ] Add link to CV  
