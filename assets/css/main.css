@@ -22,6 +22,16 @@ h3 {
 h1 {
   color: rgb(226 232 240);
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 .container {
   max-width: 1140px;
   margin: auto;
@@ -34,11 +44,20 @@ h1 {
 .main {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
-.sticky {
-  position: sticky;
-  top: 5rem;
-  height: 400px;
+@media only screen and (min-width: 600px) {
+  .main {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .sticky {
+    position: sticky;
+    top: 5rem;
+    height: 400px;
+  }
 }
 .content {
   width: 90%;
@@ -141,4 +160,14 @@ h1 {
 }
 .font-white {
   color: rgb(226 232 240);
+}
+.social-media {
+  display: flex;
+  margin-top: 2rem;
+}
+.social-media svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding: 10px;
+  color: rgb(148 163 184);
 }
