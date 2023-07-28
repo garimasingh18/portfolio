@@ -35,6 +35,7 @@ h1 {
 .container {
   max-width: 1140px;
   margin: auto;
+  padding: 2rem 1rem;
 }
 @media only screen and (min-width: 600px) {
   .container {
@@ -51,17 +52,21 @@ h1 {
     flex-direction: row;
   }
 }
-
+.sticky {
+  position: sticky;
+  z-index: 1;
+}
 @media only screen and (min-width: 600px) {
   .sticky {
     position: sticky;
     top: 5rem;
     height: 400px;
   }
+  .content {
+    width: 90%;
+  }
 }
-.content {
-  width: 90%;
-}
+
 .links ul li {
   padding: 1rem 0;
 }
@@ -114,6 +119,7 @@ h1 {
   position: relative;
   z-index: 1;
   display: flex;
+  flex-direction: column;
   margin-left: -15px;
 }
 .list .group header {
@@ -122,6 +128,9 @@ h1 {
   padding-right: 15px;
 }
 @media only screen and (min-width: 600px) {
+  .list .group {
+    flex-direction: row;
+  }
   .list .group header {
     min-width: 15rem;
   }
