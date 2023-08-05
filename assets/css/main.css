@@ -147,7 +147,7 @@ h1 {
 .Technologies-used div {
   border-radius: 9999px;
   background-color: rgba(45, 212, 191, 0.1);
-  color: rgb(94 234 212);
+  color: #38b6ff;
   padding: 5px 20px;
   margin: 5px;
   font-size: 12px;
@@ -161,7 +161,7 @@ h1 {
   font-weight: bold;
 }
 .inline-link:hover {
-  color: rgb(94 234 212);
+  color: #38b6ff;
 }
 #experience,
 #projects {
