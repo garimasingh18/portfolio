@@ -1,5 +1,5 @@
 Demo:
-https://garimasingh18.github.io/portfolio/
+https://garimasingh.vercel.app/
 
 Credits:
 	Icons:
